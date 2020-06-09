@@ -6,6 +6,7 @@ node_modules
 
 # Dev/Build Artifacts
 /dist
+/public
 /tests/e2e/reports/
 selenium-debug.log
 chromedriver.log

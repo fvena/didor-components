@@ -1,18 +1,22 @@
 {
-  "name": "didor-components",
+  "name": "@didor/components",
   "version": "0.1.0",
   "description": "Libreria UI de componentes con Vue para Didor",
   "author": "Francisco Vena <fvena32@gmail.com> (http://www.fvena.com/)",
   "homepage": "https://github.com/fvena/didor-components#readme",
   "private": false,
   "license": "MIT",
-  "main": "./dist/az.common.js",
+  "main": "dist/didor.umd.min.js",
+  "unpkg": "dist/didor.umd.min.js",
+  "jsdelivr": "dist/didor.umd.min.js",
   "files": [
-    "dist/*"
+    "dist/*",
+    "src/*"
   ],
   "scripts": {
     "docs": "didor serve",
-    "build": "vue-cli-service build --target lib --name az ./packages/index.js",
+    "docs:build": "didor build",
+    "build": "vue-cli-service build --target lib --name didor packages/index.js",
     "test": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "lint:prettier": "prettier --write --loglevel warn",
@@ -23,6 +27,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "deepmerge": "^4.2.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -34,7 +39,6 @@
     "@vue/test-utils": "^1.0.3",
     "babel-eslint": "^10.1.0",
     "commitizen": "^4.1.2",
-    "deepmerge": "^4.2.2",
     "eslint": "^6.7.2",
     "eslint-config-prettier": "^6.11.0",
     "eslint-loader": "^4.0.2",
