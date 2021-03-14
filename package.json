@@ -16,6 +16,7 @@
   "scripts": {
     "docs": "didor serve",
     "docs:build": "didor build",
+    "docs:pwa": "didor pwa",
     "build": "vue-cli-service build --target lib --name didor packages/index.js",
     "test": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
@@ -50,6 +51,7 @@
     "prettier": "^2.0.5",
     "sass-loader": "^8.0.2",
     "standard-version": "^8.0.0",
+    "style-resources-loader": "^1.3.3",
     "stylelint": "^13.5.0",
     "stylelint-config-css-modules": "^2.2.0",
     "stylelint-config-prettier": "^8.0.1",

@@ -1,7 +1,7 @@
-- [Home](/home.md)
+- [Home](/docs/home.md)
 
-- [Estilos](/didorFramework)
+- [Estilos](/didorStyles)
 
-- [Componentes](/components)
+- [Componentes](/docs/components)
 
 - [Markdown](/didorDocs)
